@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light{
+    background: linear-gradient(45deg, black, teal);
+}
+
+.navbar-brand{
+    color: white !important;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.nav-item .nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+
+.fas.fa-pen{
+    color: green;
+}
+
+td button{
+    outline: none;
+    border: none !important;
+    background: transparent !important;
+}
+
+.fas.fa-trash{
+    color: red;
+}
